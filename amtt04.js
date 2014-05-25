@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //
 // version 004 pre-beta
 // Code by Marco Amato, released in AGPL (http://www.gnu.org/licenses/agpl-3.0.html)
@@ -16,6 +17,13 @@ function test_connections(_this,fallback){
 function test_connections(_this,fallback){
 	// where to find images for the test
 >>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
+=======
+
+
+
+function test_connections(_this,fallback){
+	// where to find images for the test
+>>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
 	__src_img = "https://raw.githubusercontent.com/linediconsine/amtt/master/240/amtt/amtt00"; 
 	if(typeof _this != "undefined"){
 		var __d2 = new Date();
@@ -23,10 +31,13 @@ function test_connections(_this,fallback){
 		__time_spent = parseInt(__time2) - parseInt(_this.id);
 		__Bs = __time_spent  * 1000;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		console.log(__Bs + ' B/s');
 		
 =======
+=======
+>>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
 		
 		console.log(_this.id);
 		console.log(__time2);
@@ -36,6 +47,9 @@ function test_connections(_this,fallback){
 	
 		console.log(__time_spent);
 		console.log((__time_spent  * 1000) + ' B/s');
+<<<<<<< HEAD
+>>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
+=======
 >>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
 	if(typeof fallback != "undefined"){
 		fallback(__Bs);
@@ -56,7 +70,11 @@ function test_connections(_this,fallback){
 	}
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 test_connections();
+=======
+test_connections()
+>>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172
 =======
 test_connections()
 >>>>>>> 323ff69507b41205c23d1137cc00b67936ab6172

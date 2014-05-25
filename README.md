@@ -20,8 +20,6 @@ This is released in AGPL with the hope that alots of people want to make it bett
 There is a lot to do… this is just a fast concept in code, a pre-alpha version! 
 Do not use in production!
 
-Demo version on :
-http://www.ottob.it/share/amtt/
 
 Thanks
 
